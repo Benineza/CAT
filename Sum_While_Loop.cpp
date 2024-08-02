@@ -2,11 +2,12 @@
 using namespace std;
 int main() 
 {
-	for(int i=1; i<=100; i++)
-	int sum=i+i;
-	while(i<100)
+	int sum=0;
+	int i=1;
+	while(i<=100)
 	{
-		cout<<sum<<endl;
+		sum=sum+i;
+	i++;
 	}
-
+cout<<sum;
 }

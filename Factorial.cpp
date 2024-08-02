@@ -2,14 +2,15 @@
 using namespace std;
 int main() 
 {
-	int factorial;
+	int factorial=1;
 	int number;
 	cout<<"Enter a number:";
 	cin>>number;
-	for(int i=1; i<number; i--)
-	int factorial=i*number;
+	for(int i=1; i<=number; i++)
+	
 	{
-		cout<<factorial<<endl;
+	factorial=factorial*i;	
 	}
+	cout<<factorial<<endl;
 
 }
